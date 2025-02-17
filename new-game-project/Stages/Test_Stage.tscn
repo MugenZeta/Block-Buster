@@ -117,8 +117,102 @@ tile_set = SubResource("TileSet_pmaox")
 [node name="Scene Objects" type="Node" parent="."]
 
 [node name="Player" parent="Scene Objects" instance=ExtResource("8_bi3op")]
-position = Vector2(233, 467)
+position = Vector2(237, 458)
 
 [node name="Floor" parent="Scene Objects" instance=ExtResource("9_prmtk")]
-position = Vector2(234, 531)
-scale = Vector2(6.8628, 0.818394)
+position = Vector2(217, 616)
+scale = Vector2(10, 1)
+
+[node name="Floor17" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(618, 649)
+scale = Vector2(35, 1)
+
+[node name="Floor19" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(585, 40)
+scale = Vector2(35, 1)
+
+[node name="Floor2" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(505, 376)
+scale = Vector2(3, 2)
+
+[node name="Floor3" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(105, 584)
+scale = Vector2(3, 1)
+
+[node name="Floor4" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(73, 552)
+
+[node name="Floor5" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(457, 168)
+scale = Vector2(3, 1)
+
+[node name="Floor12" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(889, 264)
+scale = Vector2(4, 1)
+
+[node name="Floor15" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(537, 616)
+scale = Vector2(6, 1)
+
+[node name="Floor20" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(857, 552)
+scale = Vector2(5, 1)
+
+[node name="Floor6" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(681, 168)
+scale = Vector2(2, 1)
+
+[node name="Floor13" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(889, 296)
+scale = Vector2(2, 1)
+
+[node name="Floor7" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(745, 184)
+scale = Vector2(2, 2)
+
+[node name="Floor24" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(665, 600)
+scale = Vector2(2, 2)
+
+[node name="Floor21" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(201, 216)
+scale = Vector2(6, 2)
+
+[node name="Floor8" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(1001, 152)
+scale = Vector2(2, 4)
+
+[node name="Floor9" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(1001, 280)
+scale = Vector2(1, 4)
+
+[node name="Floor11" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(905, 376)
+scale = Vector2(1, 4)
+
+[node name="Floor16" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(41, 376)
+scale = Vector2(1, 20)
+
+[node name="Floor18" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(1161, 312)
+scale = Vector2(1, 20)
+
+[node name="Floor14" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(665, 360)
+scale = Vector2(1, 2)
+
+[node name="Floor25" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(329, 376)
+rotation = 0.785398
+scale = Vector2(1.5, 1.5)
+
+[node name="Floor22" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(505, 328)
+
+[node name="Floor23" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(505, 424)
+
+[node name="Floor10" parent="Scene Objects" instance=ExtResource("9_prmtk")]
+position = Vector2(1065, 456)
+scale = Vector2(1, 3)
