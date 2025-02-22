@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfxvy71po5jk6"]
+
+[ext_resource type="PackedScene" uid="uid://bwn28knknlpfp" path="res://Objects/Interactables/Floors/floor.tscn" id="1_n6mbi"]
+[ext_resource type="Texture2D" uid="uid://daxnfh8sshkrl" path="res://Assets/Test Assets/Slope.png" id="2_0evdr"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_m2tk5"]
+a = Vector2(47, -48)
+b = Vector2(-17, 16)
+
+[node name="Slope" instance=ExtResource("1_n6mbi")]
+
+[node name="Sprite" parent="." index="0"]
+texture = ExtResource("2_0evdr")
+
+[node name="Collision" parent="." index="1"]
+position = Vector2(-15, 16)
+shape = SubResource("SegmentShape2D_m2tk5")
