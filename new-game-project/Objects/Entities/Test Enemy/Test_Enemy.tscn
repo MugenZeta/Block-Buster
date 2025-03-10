@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://w3fjdnt4t50u"]
+
+[ext_resource type="Script" path="res://Objects/Entities/Test Enemy/test_enemy.gd" id="1_f76wq"]
+[ext_resource type="Texture2D" uid="uid://lwmqmy181nxa" path="res://Assets/Test Assets/Cenemy.png" id="2_8sasu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ajbt"]
+size = Vector2(16, 16)
+
+[node name="TestEnemy" type="CharacterBody2D"]
+script = ExtResource("1_f76wq")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_8sasu")
+
+[node name="Hurtbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_7ajbt")
+
+[node name="Area2D" type="Area2D" parent="."]

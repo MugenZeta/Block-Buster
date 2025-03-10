@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://dfnako7pugcp2"]
+[gd_scene load_steps=21 format=4 uid="uid://dfnako7pugcp2"]
 
 [ext_resource type="Texture2D" uid="uid://b3ce3mt0g4sfl" path="res://Assets/Test Assets/8.png" id="1_oga4i"]
 [ext_resource type="Texture2D" uid="uid://t7jaoxvxs22a" path="res://Assets/Test Assets/32.png" id="2_7ml5a"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" path="res://Stages/stage.gd" id="8_jl3ra"]
 [ext_resource type="PackedScene" uid="uid://bwn28knknlpfp" path="res://Objects/Interactables/Floors/floor.tscn" id="9_prmtk"]
 [ext_resource type="PackedScene" uid="uid://cfxvy71po5jk6" path="res://Objects/Interactables/Slope/slope.tscn" id="10_6837j"]
+[ext_resource type="PackedScene" uid="uid://w3fjdnt4t50u" path="res://Objects/Entities/Test Enemy/Test_Enemy.tscn" id="12_ynuy4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_unup5"]
 texture = ExtResource("1_oga4i")
@@ -121,6 +122,9 @@ tile_set = SubResource("TileSet_pmaox")
 
 [node name="Player" parent="Scene Objects" instance=ExtResource("8_bi3op")]
 position = Vector2(237, 458)
+GRAVITY = Vector2(0, 660)
+ACCEL = 2.0
+DECEL = 10.0
 
 [node name="Floor" parent="Scene Objects" instance=ExtResource("9_prmtk")]
 position = Vector2(217, 616)
@@ -292,3 +296,6 @@ position = Vector2(170, 312)
 rotation = -1.5708
 scale = Vector2(2, 2)
 floor_stop_on_slope = false
+
+[node name="TestEnemy" parent="." instance=ExtResource("12_ynuy4")]
+position = Vector2(575, 500)
